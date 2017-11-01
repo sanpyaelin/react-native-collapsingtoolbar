@@ -1,6 +1,6 @@
 {
   "name": "react-native-collapsingtoolbar",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "react native collapsing Toolbar",
   "main": "./src",
   "scripts": {

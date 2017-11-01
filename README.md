@@ -11,6 +11,7 @@ Import the component:
 ```js
     import CollapsingToolbar from 'react-native-collapsingtoolbar';
     import Icon from 'react-native-vector-icons/Ionicons';
+
     <CollapsingToolbar 
         leftItem={<Icon name="md-menu" size={30} color="#fff" />}
         rightItem={<Icon name="md-create" size={30}  color="#fff" />}   
@@ -25,9 +26,9 @@ Import the component:
 
 # Screen Shot
 
-<img src="./screenshot/1.git" width="285">
+<img src="https://github.com/sanpyaelin/react-native-collapsingtoolbar/blob/master/screenshot/1.gif" width="285">
 
-<img src="./screenshot/2.git" width="285">
+<img src="https://github.com/sanpyaelin/react-native-collapsingtoolbar/blob/master/screenshot/2.gif" width="285">
 
 ## Props
 
