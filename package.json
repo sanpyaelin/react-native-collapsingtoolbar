@@ -1,0 +1,24 @@
+{
+  "name": "react-native-collapsingtoolbar",
+  "version": "1.0.1",
+  "description": "react native collapsing Toolbar",
+  "main": "./src",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "react-native-react-native-collapsingToolbar"
+  },
+  "keywords": [
+    "Toolbar",
+    "react native",
+    "nav bar",
+    "App bar",
+    "collapsing toolbar",
+    "collapsing",
+    "header"
+  ],
+  "author": "San Pyae Lin",
+  "license": ""
+}
