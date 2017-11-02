@@ -1,11 +1,16 @@
-# React Native CollapsingToolbar
+## React Native CollapsingToolbar
 
-# Getting Started
+## Screen Shot
+
+<img src="https://github.com/sanpyaelin/react-native-collapsingtoolbar/blob/master/screenshot/1.gif" width="285">    <img src="https://github.com/sanpyaelin/react-native-collapsingtoolbar/blob/master/screenshot/2.gif" width="285">
+
+
+## Getting Started
 ```bash
 $ npm i react-native-collapsingtoolbar
 ```
 
-# Usage
+## Usage
 
 Import the component:
 ```js
@@ -23,12 +28,6 @@ Import the component:
         </Text>
     </CollapsingToolbar>
 ```
-
-# Screen Shot
-
-<img src="https://github.com/sanpyaelin/react-native-collapsingtoolbar/blob/master/screenshot/1.gif" width="285">
-
-<img src="https://github.com/sanpyaelin/react-native-collapsingtoolbar/blob/master/screenshot/2.gif" width="285">
 
 ## Props
 
