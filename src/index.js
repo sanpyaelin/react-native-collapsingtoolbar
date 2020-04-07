@@ -13,9 +13,9 @@ import styles from "./styles";
 
 const propTypes = {
   children: PropTypes.node.isRequired,
-  src: PropTypes.oneOfType([
-    PropTypes.object,
-    PropTypes.number,
+  src: React.PropTypes.oneOfType([
+    React.PropTypes.object,
+    React.PropTypes.number,
   ]).isRequired,
   title: PropTypes.string,
   titleColor: PropTypes.string,
