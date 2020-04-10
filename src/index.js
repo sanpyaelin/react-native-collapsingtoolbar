@@ -49,7 +49,7 @@ class CollapsingToolbar extends Component {
   }
 
   render() {
-    const { children,src,leftItem,leftItemPress,rightItem,rightItemPress,title,titleColor,toolbarColor,toolbarMaxHeight,toolbarMinHeight } = this.props;
+    const { children, src, leftItem, leftItemPress, rightItem, rightItemPress, title, titleColor, toolbarColor, toolbarMaxHeight, toolbarMinHeight } = this.props;
     const scrollDistance = toolbarMaxHeight - toolbarMinHeight;
     const headerTranslate = this.state.scrollY.interpolate({
       inputRange: [0, scrollDistance],
@@ -81,7 +81,7 @@ class CollapsingToolbar extends Component {
 
     return (
       <View style={styles.fill}>
-        
+
         <Animated.ScrollView
           style={styles.fill}
           scrollEventThrottle={1}
@@ -89,17 +89,17 @@ class CollapsingToolbar extends Component {
             [{ nativeEvent: { contentOffset: { y: this.state.scrollY } } }],
             { useNativeDriver: true },
           )}>
-          <View style={{marginTop: toolbarMaxHeight, minHeight: 700}}>
+          <View style={{ marginTop: toolbarMaxHeight, minHeight: 700 }}>
             {children}
           </View>
         </Animated.ScrollView>
         <Animated.View
           style={[
             styles.header,
-            { 
+            {
               backgroundColor: toolbarColor,
               height: toolbarMaxHeight,
-              transform: [{ translateY: headerTranslate }] 
+              transform: [{ translateY: headerTranslate }]
             },
           ]}
         >
@@ -125,7 +125,7 @@ class CollapsingToolbar extends Component {
               },
             ]}
           >
-            <Text style={[styles.title,{color: titleColor}]}>{title}</Text>
+            <Text style={[styles.title, { color: titleColor }]}>{title}</Text>
           </Animated.View>
         </Animated.View>
         <Animated.View style={styles.bar}>
